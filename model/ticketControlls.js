@@ -106,7 +106,7 @@ export class TicketControllers{
 
         //Condiciones ultimos4 tickets para que solo muestre 4 elementos
         if(this.ultimos4Tickets.length>4){
-            const ultimos4=this.ultimos4Tickets.slice(0,3)
+            const ultimos4=this.ultimos4Tickets.slice(0,4)
             this.ultimos4Tickets=ultimos4
         }
         
